@@ -1,0 +1,17 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="Uno-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-136,-116" rotation="0" hflip="1" vflip="1" label="Uno-3" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="code/build/arduino.avr.uno/code.ino.hex" Auto_Load="true" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Aip31068_i2c" CircId="Aip31068_i2c-6" mainComp="false" Show_id="true" Show_Val="false" Pos="60,-16" rotation="0" hflip="1" vflip="1" label="Aip31068_i2c-6" idLabPos="63.4504,-121.893" labelrot="0" valLabPos="-16,20" valLabRot="0" Rows="4" Cols="20" Control_Code="8" Frequency="100 _kHz" />
+
+<item itemtype="Led" CircId="Led-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-172,12" rotation="90" hflip="1" vflip="1" label="Led-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Red" Grounded="true" Threshold="0.8 V" MaxCurrent="3 mA" Resistance="0.6 Ω" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="Uno-3-A4" endpinid="Aip31068_i2c-6PinSDA" pointList="16,-92,52,-92,52,-8,76,-8" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Uno-3-A5" endpinid="Aip31068_i2c-6PinSCL" pointList="16,-100,44,-100,44,12,84,12,84,-8" />
+
+<item itemtype="Connector" uid="Connector-38" startpinid="Uno-3-3" endpinid="Led-11-lPin" pointList="-128,-76,-172,-76,-172,-4" />
+
+</circuit>

@@ -1,0 +1,321 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Package" CircId="Package-189" mainComp="false" Show_id="true" Show_Val="false" Pos="-588,-372" rotation="0" hflip="1" vflip="1" label="Package-189" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" SubcType="Module" Width="4" Height="8" Name="Package" Background="#FFF" Logic_Symbol="false" />
+
+<item itemtype="Subcircuit" CircId="Uno-1" mainComp="false" Show_id="true" Show_Val="false" Pos="-492,-156" rotation="-180" hflip="1" vflip="1" label="Uno-1" idLabPos="74.8548,-15.4357" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Logic_Symbol="false">
+<mainCompProps MainCompId="mega328-109" Frequency="16 MHz" Program="code/build/arduino.avr.uno/code.ino.hex" Auto_Load="false" saveEepr="true" MainMcu="true" SerialMon="-1" />
+</item>
+
+<item itemtype="Ili9341" CircId="Ili9341-8" mainComp="false" Show_id="true" Show_Val="false" Pos="152,-308" rotation="0" hflip="1" vflip="1" label="Ili9341" idLabPos="-32,-180" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="KeyPad" CircId="KeyPad-2" mainComp="false" Show_id="false" Show_Val="false" Pos="300,-112" rotation="360" hflip="1" vflip="1" label="KeyPad-2" idLabPos="-8,-16" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Rows="7" Cols="13" Key_Labels="ppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp" />
+
+<item itemtype="Demux" CircId="Demux-34" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,-136" rotation="0" hflip="1" vflip="1" label="Demux-34" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Address_Bits="3 _bits" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="TextComponent" CircId="TextComponent-39" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,-172" rotation="90" hflip="1" vflip="1" label="TextComponent-39" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Margin="-1 _px" Border="0 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="11 _px" Fixed_Width="false" Text="SPI CS 0-6" />
+
+<item itemtype="Socket" CircId="Socket-35" mainComp="false" Show_id="false" Show_Val="false" Pos="-120,-144" rotation="0" hflip="1" vflip="1" label="Socket-35" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Size="7 _Pins" />
+
+<item itemtype="I2CToParallel" CircId="I2CToParallel-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-340,-256" rotation="0" hflip="1" vflip="1" label="I2CToParallel-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Control_Code="80" Frequency="100 _kHz" />
+
+<item itemtype="Socket" CircId="Socket-45" mainComp="false" Show_id="false" Show_Val="false" Pos="-272,120" rotation="0" hflip="1" vflip="1" label="Socket-45" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Size="2 _Pins" />
+
+<item itemtype="TextComponent" CircId="TextComponent-55" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,88" rotation="90" hflip="1" vflip="1" label="TextComponent-55" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Margin="-1 _px" Border="0 _px" Color="#ffffff" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="I2C&#xa;4,5" />
+
+<item itemtype="Demux" CircId="Demux-77" mainComp="false" Show_id="false" Show_Val="false" Pos="-192,-376" rotation="0" hflip="1" vflip="1" label="Demux-77" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Address_Bits="3 _bits" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Bus" CircId="Bus-136" mainComp="false" Show_id="false" Show_Val="false" Pos="-312,36" rotation="0" hflip="1" vflip="1" label="Bus-136" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Num_Bits="4 _bits" Start_Bit="0" />
+
+<item itemtype="Bus" CircId="Bus-137" mainComp="false" Show_id="false" Show_Val="false" Pos="-240,-92" rotation="180" hflip="1" vflip="1" label="Bus-137" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Num_Bits="4 _bits" Start_Bit="0" />
+
+<item itemtype="Bus" CircId="Bus-138" mainComp="false" Show_id="false" Show_Val="false" Pos="-260,-328" rotation="180" hflip="1" vflip="1" label="Bus-138" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Num_Bits="4 _bits" Start_Bit="0" />
+
+<item itemtype="Buffer" CircId="Buffer-139" mainComp="false" Show_id="false" Show_Val="false" Pos="-232,-436" rotation="0" hflip="1" vflip="1" label="Buffer-139" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="false" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="ADC" CircId="ADC-144" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,96" rotation="180" hflip="1" vflip="1" label="ADC-144" idLabPos="-16,-80" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Num_Bits="8 _bits" Vref="5 V" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Socket" CircId="Socket-146" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,-384" rotation="0" hflip="1" vflip="1" label="Socket-146" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Size="8 _Pins" />
+
+<item itemtype="Socket" CircId="Socket-148" mainComp="false" Show_id="false" Show_Val="false" Pos="-36,-216" rotation="0" hflip="1" vflip="1" label="Socket-148" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Size="4 _Pins" />
+
+<item itemtype="TextComponent" CircId="TextComponent-154" mainComp="false" Show_id="false" Show_Val="false" Pos="0,-252" rotation="90" hflip="1" vflip="1" label="TextComponent-154" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Margin="0 _px" Border="0 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="9 _px" Fixed_Width="false" Text="SPI OUT" />
+
+<item itemtype="Socket" CircId="Socket-155" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,68" rotation="0" hflip="1" vflip="1" label="Socket-155" idLabPos="-16,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Size="2 _Pins" />
+
+<item itemtype="Subcircuit" CircId="74XX591-243" mainComp="false" Show_id="true" Show_Val="false" Pos="608,-12" rotation="180" hflip="1" vflip="1" label="74XX591-243" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" Logic_Symbol="true" />
+
+<item itemtype="DecToBcd" CircId="DecToBcd-245" mainComp="false" Show_id="false" Show_Val="false" Pos="696,68" rotation="0" hflip="1" vflip="1" label="DecToBcd-245" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" _16_Bits="true" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="DecToBcd" CircId="DecToBcd-246" mainComp="false" Show_id="false" Show_Val="false" Pos="696,-144" rotation="360" hflip="1" vflip="1" label="DecToBcd-246" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" _16_Bits="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" Inverted="false" Open_Collector="false" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Ground" CircId="Ground-254" mainComp="false" Show_id="false" Show_Val="false" Pos="756,-4" rotation="0" hflip="1" vflip="1" label="Ground-254" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" />
+
+<item itemtype="LAnalizer" CircId="LAnalizer-272" mainComp="false" Show_id="false" Show_Val="false" Pos="784,-344" rotation="0" hflip="1" vflip="1" label="LAnalizer-272" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="100000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000" TimPos="0" VolDiv="0.15" Tunnels=",,,,,,,," Trigger="9" TimeStep="1000 _ps" AutoExport="false" TresholdR="2.5 V" Bus="false,false,false,false,false,false,false,false," TresholdF="2.5 V" />
+
+<item itemtype="Node" CircId="Node-74" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-576,76" />
+
+<item itemtype="Node" CircId="Node-76" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-560,60" />
+
+<item itemtype="Node" CircId="Node-140" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-300,-52" />
+
+<item itemtype="Node" CircId="Node-141" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-260,12" />
+
+<item itemtype="Node" CircId="Node-150" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-84,-28" />
+
+<item itemtype="Node" CircId="Node-151" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-76,-44" />
+
+<item itemtype="Node" CircId="Node-152" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="-68,-60" />
+
+<item itemtype="Node" CircId="Node-153" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="104,-96" />
+
+<item itemtype="Node" CircId="Node-247" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="516,-104" />
+
+<item itemtype="Node" CircId="Node-249" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="520,-88" />
+
+<item itemtype="Node" CircId="Node-250" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="528,-72" />
+
+<item itemtype="Node" CircId="Node-251" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="532,-44" />
+
+<item itemtype="Node" CircId="Node-252" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="536,-24" />
+
+<item itemtype="Node" CircId="Node-253" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="540,-8" />
+
+<item itemtype="Node" CircId="Node-256" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="728,-36" />
+
+<item itemtype="Node" CircId="Node-259" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="644,-76" />
+
+<item itemtype="Node" CircId="Node-262" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="644,-128" />
+
+<item itemtype="Node" CircId="Node-263" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="644,-120" />
+
+<item itemtype="Node" CircId="Node-264" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="644,-112" />
+
+<item itemtype="Node" CircId="Node-265" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="644,-104" />
+
+<item itemtype="Node" CircId="Node-267" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="632,-76" />
+
+<item itemtype="Node" CircId="Node-269" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="632,124" />
+
+<item itemtype="Node" CircId="Node-270" mainComp="false" boardPos="-1e+06,-1e+06" circPos="0,0" boardRot="-1e+06" circRot="0" boardHflip="1" boardVflip="1" Pos="632,116" />
+
+<item itemtype="Connector" uid="Connector-139" startpinid="Demux-34-out7" endpinid="Ili9341-8-PinCS" pointList="-164,-112,96,-112,96,-124" />
+
+<item itemtype="Connector" uid="Connector-138" startpinid="Socket-35-pin6" endpinid="Demux-34-out6" pointList="-128,-120,-164,-120" />
+
+<item itemtype="Connector" uid="Connector-137" startpinid="Socket-35-pin5" endpinid="Demux-34-out5" pointList="-128,-128,-164,-128" />
+
+<item itemtype="Connector" uid="Connector-132" startpinid="Socket-35-pin4" endpinid="Demux-34-out4" pointList="-128,-136,-164,-136" />
+
+<item itemtype="Connector" uid="Connector-131" startpinid="Socket-35-pin3" endpinid="Demux-34-out3" pointList="-128,-144,-164,-144" />
+
+<item itemtype="Connector" uid="Connector-123" startpinid="Socket-35-pin1" endpinid="Demux-34-out1" pointList="-128,-160,-164,-160" />
+
+<item itemtype="Connector" uid="Connector-122" startpinid="Socket-35-pin0" endpinid="Demux-34-out0" pointList="-128,-168,-164,-168" />
+
+<item itemtype="Connector" uid="Connector-143" startpinid="Socket-35-pin2" endpinid="Demux-34-out2" pointList="-128,-152,-164,-152" />
+
+<item itemtype="Connector" uid="Connector-147" startpinid="I2CToParallel-44-in2" endpinid="Uno-1-A0" pointList="-364,-240,-524,-240,-524,12,-484,12" />
+
+<item itemtype="Connector" uid="Connector-148" startpinid="I2CToParallel-44-in3" endpinid="Uno-1-A1" pointList="-364,-232,-536,-232,-536,20,-484,20" />
+
+<item itemtype="Connector" uid="Connector-149" startpinid="I2CToParallel-44-in4" endpinid="Uno-1-A2" pointList="-364,-224,-512,-224,-512,28,-484,28" />
+
+<item itemtype="Connector" uid="Connector-223" startpinid="I2CToParallel-44-in1" endpinid="Node-74-1" pointList="-364,-272,-748,-272,-748,76,-576,76" />
+
+<item itemtype="Connector" uid="Connector-224" startpinid="Uno-1-A5" endpinid="Node-74-0" pointList="-484,52,-576,52,-576,76" />
+
+<item itemtype="Connector" uid="Connector-225" startpinid="Node-74-2" endpinid="Socket-45-pin1" pointList="-576,76,-576,104,-280,104" />
+
+<item itemtype="Connector" uid="Connector-231" startpinid="I2CToParallel-44-in0" endpinid="Node-76-1" pointList="-364,-280,-628,-280,-628,60,-560,60" />
+
+<item itemtype="Connector" uid="Connector-232" startpinid="Uno-1-A4" endpinid="Node-76-0" pointList="-484,44,-560,44,-560,60" />
+
+<item itemtype="Connector" uid="Connector-233" startpinid="Node-76-2" endpinid="Socket-45-pin0" pointList="-560,60,-560,96,-280,96" />
+
+<item itemtype="Connector" uid="Connector-447" startpinid="Uno-1-5" endpinid="Bus-136-ePin1" pointList="-340,12,-320,12" />
+
+<item itemtype="Connector" uid="Connector-448" startpinid="Uno-1-4" endpinid="Bus-136-ePin2" pointList="-340,20,-320,20" />
+
+<item itemtype="Connector" uid="Connector-449" startpinid="Uno-1-3" endpinid="Bus-136-ePin3" pointList="-340,28,-320,28" />
+
+<item itemtype="Connector" uid="Connector-450" startpinid="Uno-1-2" endpinid="Bus-136-ePin4" pointList="-340,36,-320,36" />
+
+<item itemtype="Connector" uid="Connector-453" startpinid="Bus-138-ePin1" endpinid="Demux-77-in0" pointList="-252,-304,-184,-304,-184,-328" />
+
+<item itemtype="Connector" uid="Connector-454" startpinid="Bus-138-ePin2" endpinid="Demux-77-in1" pointList="-252,-312,-192,-312,-192,-328" />
+
+<item itemtype="Connector" uid="Connector-455" startpinid="Bus-138-ePin3" endpinid="Demux-77-in2" pointList="-252,-320,-200,-320,-200,-328" />
+
+<item itemtype="Connector" uid="Connector-456" startpinid="Buffer-139-out" endpinid="Demux-77-in4" pointList="-216,-436,-200,-436,-200,-424" />
+
+<item itemtype="Connector" uid="Connector-457" startpinid="Bus-138-ePin4" endpinid="Buffer-139-in0" pointList="-252,-328,-252,-436,-248,-436" />
+
+<item itemtype="Connector" uid="Connector-458" startpinid="Node-140-1" endpinid="Demux-77-in3" pointList="-300,-52,-300,-376,-216,-376" />
+
+<item itemtype="Connector" uid="Connector-459" startpinid="Uno-1-12" endpinid="Node-140-0" pointList="-340,-52,-300,-52" />
+
+<item itemtype="Connector" uid="Connector-460" startpinid="Node-140-2" endpinid="Demux-34-in3" pointList="-300,-52,-212,-52,-212,-136" />
+
+<item itemtype="Connector" uid="Connector-461" startpinid="Bus-137-ePin1" endpinid="Demux-34-in0" pointList="-232,-68,-180,-68,-180,-88" />
+
+<item itemtype="Connector" uid="Connector-462" startpinid="Bus-137-ePin2" endpinid="Demux-34-in1" pointList="-232,-76,-188,-76,-188,-88" />
+
+<item itemtype="Connector" uid="Connector-463" startpinid="Bus-137-ePin3" endpinid="Demux-34-in2" pointList="-232,-84,-196,-84,-196,-88" />
+
+<item itemtype="Connector" uid="Connector-464" startpinid="Bus-137-ePin4" endpinid="Demux-34-in4" pointList="-232,-92,-232,-184,-196,-184" />
+
+<item itemtype="Connector" uid="Connector-466" startpinid="Node-141-1" endpinid="Bus-138-busPinI" pointList="-260,12,-260,-304" />
+
+<item itemtype="Connector" uid="Connector-467" startpinid="Bus-136-busPinI" endpinid="Node-141-0" pointList="-312,12,-260,12" />
+
+<item itemtype="Connector" uid="Connector-468" startpinid="Node-141-2" endpinid="Bus-137-busPinI" pointList="-260,12,-240,12,-240,-68" />
+
+<item itemtype="Connector" uid="Connector-478" startpinid="Demux-77-out0" endpinid="Socket-146-pin0" pointList="-168,-408,-148,-408" />
+
+<item itemtype="Connector" uid="Connector-479" startpinid="Demux-77-out1" endpinid="Socket-146-pin1" pointList="-168,-400,-148,-400" />
+
+<item itemtype="Connector" uid="Connector-480" startpinid="Demux-77-out2" endpinid="Socket-146-pin2" pointList="-168,-392,-148,-392" />
+
+<item itemtype="Connector" uid="Connector-481" startpinid="Demux-77-out3" endpinid="Socket-146-pin3" pointList="-168,-384,-148,-384" />
+
+<item itemtype="Connector" uid="Connector-482" startpinid="Demux-77-out4" endpinid="Socket-146-pin4" pointList="-168,-376,-148,-376" />
+
+<item itemtype="Connector" uid="Connector-483" startpinid="Demux-77-out5" endpinid="Socket-146-pin5" pointList="-168,-368,-148,-368" />
+
+<item itemtype="Connector" uid="Connector-484" startpinid="Demux-77-out6" endpinid="Socket-146-pin6" pointList="-168,-360,-148,-360" />
+
+<item itemtype="Connector" uid="Connector-485" startpinid="Demux-77-out7" endpinid="Socket-146-pin7" pointList="-168,-352,-148,-352" />
+
+<item itemtype="Connector" uid="Connector-495" startpinid="Node-150-1" endpinid="Socket-148-pin0" pointList="-84,-28,-84,-240,-44,-240" />
+
+<item itemtype="Connector" uid="Connector-496" startpinid="Ili9341-8-PinDC" endpinid="Node-150-0" pointList="112,-124,112,-28,-84,-28" />
+
+<item itemtype="Connector" uid="Connector-497" startpinid="Node-150-2" endpinid="Uno-1-9" pointList="-84,-28,-340,-28" />
+
+<item itemtype="Connector" uid="Connector-498" startpinid="Node-151-1" endpinid="Socket-148-pin1" pointList="-76,-44,-76,-232,-44,-232" />
+
+<item itemtype="Connector" uid="Connector-499" startpinid="Ili9341-8-PinMosi" endpinid="Node-151-0" pointList="120,-124,120,-44,-76,-44" />
+
+<item itemtype="Connector" uid="Connector-500" startpinid="Node-151-2" endpinid="Uno-1-11" pointList="-76,-44,-340,-44" />
+
+<item itemtype="Connector" uid="Connector-501" startpinid="Node-152-1" endpinid="Socket-148-pin2" pointList="-68,-60,-68,-224,-44,-224" />
+
+<item itemtype="Connector" uid="Connector-502" startpinid="Uno-1-13" endpinid="Node-152-0" pointList="-340,-60,-68,-60" />
+
+<item itemtype="Connector" uid="Connector-503" startpinid="Node-152-2" endpinid="Ili9341-8-PinSck" pointList="-68,-60,128,-60,128,-124" />
+
+<item itemtype="Connector" uid="Connector-504" startpinid="Node-153-1" endpinid="Socket-148-pin3" pointList="104,-96,-44,-96,-44,-216" />
+
+<item itemtype="Connector" uid="Connector-505" startpinid="Uno-1-RST" endpinid="Node-153-0" pointList="-484,-44,-548,-44,-548,176,104,176,104,-96" />
+
+<item itemtype="Connector" uid="Connector-506" startpinid="Node-153-2" endpinid="Ili9341-8-PinRst" pointList="104,-96,104,-124" />
+
+<item itemtype="Connector" uid="Connector-509" startpinid="Socket-155-pin0" endpinid="Uno-1-1" pointList="-184,44,-340,44" />
+
+<item itemtype="Connector" uid="Connector-511" startpinid="Socket-155-pin1" endpinid="Uno-1-0" pointList="-184,52,-340,52" />
+
+<item itemtype="Connector" uid="Connector-681" startpinid="74XX591-243-Q2" endpinid="KeyPad-2-Pin4" pointList="560,-36,508,-36,508,-40" />
+
+<item itemtype="Connector" uid="Connector-689" startpinid="Node-247-1" endpinid="DecToBcd-246-in0" pointList="516,-104,516,-176,672,-176" />
+
+<item itemtype="Connector" uid="Connector-690" startpinid="74XX591-243-Q6" endpinid="Node-247-0" pointList="560,-68,544,-68,544,-104,516,-104" />
+
+<item itemtype="Connector" uid="Connector-691" startpinid="Node-247-2" endpinid="KeyPad-2-Pin0" pointList="516,-104,508,-104" />
+
+<item itemtype="Connector" uid="Connector-696" startpinid="Node-249-1" endpinid="DecToBcd-246-in1" pointList="520,-88,520,-168,672,-168" />
+
+<item itemtype="Connector" uid="Connector-697" startpinid="74XX591-243-Q5" endpinid="Node-249-0" pointList="560,-60,536,-60,536,-88,520,-88" />
+
+<item itemtype="Connector" uid="Connector-699" startpinid="Node-250-1" endpinid="DecToBcd-246-in2" pointList="528,-72,528,-160,672,-160" />
+
+<item itemtype="Connector" uid="Connector-700" startpinid="74XX591-243-Q4" endpinid="Node-250-0" pointList="560,-52,528,-52,528,-72" />
+
+<item itemtype="Connector" uid="Connector-701" startpinid="Node-250-2" endpinid="KeyPad-2-Pin2" pointList="528,-72,508,-72" />
+
+<item itemtype="Connector" uid="Connector-702" startpinid="Node-251-1" endpinid="DecToBcd-246-in3" pointList="532,-44,532,-152,672,-152" />
+
+<item itemtype="Connector" uid="Connector-703" startpinid="74XX591-243-Q3" endpinid="Node-251-0" pointList="560,-44,532,-44" />
+
+<item itemtype="Connector" uid="Connector-704" startpinid="Node-251-2" endpinid="KeyPad-2-Pin3" pointList="532,-44,520,-44,520,-56,508,-56" />
+
+<item itemtype="Connector" uid="Connector-705" startpinid="Node-252-1" endpinid="DecToBcd-246-in4" pointList="536,-24,536,-144,672,-144" />
+
+<item itemtype="Connector" uid="Connector-706" startpinid="74XX591-243-Q1" endpinid="Node-252-0" pointList="560,-28,560,-24,536,-24" />
+
+<item itemtype="Connector" uid="Connector-707" startpinid="Node-252-2" endpinid="KeyPad-2-Pin5" pointList="536,-24,508,-24" />
+
+<item itemtype="Connector" uid="Connector-708" startpinid="Node-253-1" endpinid="DecToBcd-246-in5" pointList="540,-8,540,-136,672,-136" />
+
+<item itemtype="Connector" uid="Connector-709" startpinid="74XX591-243-Q0" endpinid="Node-253-0" pointList="560,-20,552,-20,552,-8,540,-8" />
+
+<item itemtype="Connector" uid="Connector-710" startpinid="Node-253-2" endpinid="KeyPad-2-Pin6" pointList="540,-8,508,-8" />
+
+<item itemtype="Connector" uid="Connector-712" startpinid="KeyPad-2-Pin18" endpinid="DecToBcd-245-in1" pointList="476,8,476,20,672,20" />
+
+<item itemtype="Connector" uid="Connector-713" startpinid="KeyPad-2-Pin17" endpinid="DecToBcd-245-in2" pointList="460,8,460,28,672,28" />
+
+<item itemtype="Connector" uid="Connector-714" startpinid="KeyPad-2-Pin16" endpinid="DecToBcd-245-in3" pointList="444,8,444,36,672,36" />
+
+<item itemtype="Connector" uid="Connector-715" startpinid="KeyPad-2-Pin15" endpinid="DecToBcd-245-in4" pointList="428,8,428,44,672,44" />
+
+<item itemtype="Connector" uid="Connector-716" startpinid="KeyPad-2-Pin14" endpinid="DecToBcd-245-in5" pointList="412,8,412,52,672,52" />
+
+<item itemtype="Connector" uid="Connector-717" startpinid="KeyPad-2-Pin13" endpinid="DecToBcd-245-in6" pointList="396,8,396,60,672,60" />
+
+<item itemtype="Connector" uid="Connector-718" startpinid="KeyPad-2-Pin12" endpinid="DecToBcd-245-in7" pointList="380,8,380,68,672,68" />
+
+<item itemtype="Connector" uid="Connector-725" startpinid="KeyPad-2-Pin11" endpinid="DecToBcd-245-in8" pointList="364,8,364,76,672,76" />
+
+<item itemtype="Connector" uid="Connector-726" startpinid="KeyPad-2-Pin10" endpinid="DecToBcd-245-in9" pointList="348,8,348,84,672,84" />
+
+<item itemtype="Connector" uid="Connector-727" startpinid="KeyPad-2-Pin9" endpinid="DecToBcd-245-in10" pointList="332,8,332,92,672,92" />
+
+<item itemtype="Connector" uid="Connector-728" startpinid="KeyPad-2-Pin8" endpinid="DecToBcd-245-in11" pointList="316,8,316,100,672,100" />
+
+<item itemtype="Connector" uid="Connector-729" startpinid="KeyPad-2-Pin7" endpinid="DecToBcd-245-in12" pointList="300,8,300,108,672,108" />
+
+<item itemtype="Connector" uid="Connector-733" startpinid="Ground-254-Gnd" endpinid="Node-256-0" pointList="756,-20,756,-36,728,-36" />
+
+<item itemtype="Connector" uid="Connector-734" startpinid="Node-256-2" endpinid="DecToBcd-245-in15" pointList="728,-36,672,-36,672,132" />
+
+<item itemtype="Connector" uid="Connector-744" startpinid="Node-256-1" endpinid="Node-259-0" pointList="728,-36,728,-76,644,-76" />
+
+<item itemtype="Connector" uid="Connector-753" startpinid="DecToBcd-246-in6" endpinid="Node-262-1" pointList="672,-128,644,-128" />
+
+<item itemtype="Connector" uid="Connector-755" startpinid="Node-262-2" endpinid="DecToBcd-246-in15" pointList="644,-128,644,-236,704,-236,704,-192" />
+
+<item itemtype="Connector" uid="Connector-756" startpinid="DecToBcd-246-in7" endpinid="Node-263-1" pointList="672,-120,644,-120" />
+
+<item itemtype="Connector" uid="Connector-758" startpinid="Node-263-2" endpinid="Node-262-0" pointList="644,-120,644,-128" />
+
+<item itemtype="Connector" uid="Connector-759" startpinid="DecToBcd-246-in8" endpinid="Node-264-1" pointList="672,-112,644,-112" />
+
+<item itemtype="Connector" uid="Connector-761" startpinid="Node-264-2" endpinid="Node-263-0" pointList="644,-112,644,-120" />
+
+<item itemtype="Connector" uid="Connector-762" startpinid="DecToBcd-246-in9" endpinid="Node-265-1" pointList="672,-104,644,-104" />
+
+<item itemtype="Connector" uid="Connector-764" startpinid="Node-265-2" endpinid="Node-264-0" pointList="644,-104,644,-112" />
+
+<item itemtype="Connector" uid="Connector-769" startpinid="Node-259-2" endpinid="Node-267-0" pointList="644,-76,632,-76" />
+
+<item itemtype="Connector" uid="Connector-770" startpinid="Node-267-2" endpinid="74XX591-243-!OE" pointList="632,-76,616,-76" />
+
+<item itemtype="Connector" uid="Connector-775" startpinid="DecToBcd-245-in14" endpinid="Node-269-1" pointList="672,124,632,124" />
+
+<item itemtype="Connector" uid="Connector-778" startpinid="DecToBcd-245-in13" endpinid="Node-270-1" pointList="672,116,632,116" />
+
+<item itemtype="Connector" uid="Connector-779" startpinid="Node-267-1" endpinid="Node-270-0" pointList="632,-76,632,116" />
+
+<item itemtype="Connector" uid="Connector-780" startpinid="Node-270-2" endpinid="Node-269-0" pointList="632,116,632,124" />
+
+<item itemtype="Connector" uid="Connector-793" startpinid="KeyPad-2-Pin19" endpinid="DecToBcd-245-in0" pointList="492,8,492,12,672,12" />
+
+<item itemtype="Connector" uid="Connector-805" startpinid="Node-259-1" endpinid="Node-265-0" pointList="644,-76,644,-104" />
+
+<item itemtype="Connector" uid="Connector-809" startpinid="Node-249-2" endpinid="KeyPad-2-Pin1" pointList="520,-88,508,-88" />
+
+<item itemtype="Connector" uid="Connector-810" startpinid="74XX591-243-Q7" endpinid="LAnalizer-272-Pin7" pointList="560,-76,560,-296,696,-296" />
+
+<item itemtype="Connector" uid="Connector-785" startpinid="Uno-1-10" endpinid="74XX591-243-RCK" pointList="-340,-36,252,-36,252,184,856,184,856,-52,616,-52" />
+
+</circuit>
