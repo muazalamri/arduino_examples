@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "معاذ محمد",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 115.8, "left": -58.2, "attrs": {} },
+    { "type": "board-nokia-5110", "id": "lcd1", "top": -136.14, "left": 101.82, "attrs": {} },
+    {
+      "type": "wokwi-analog-joystick",
+      "id": "joystick1",
+      "top": -135,
+      "left": 360.6,
+      "attrs": {}
+    },
+    { "type": "wokwi-membrane-keypad", "id": "keypad1", "top": -338, "left": -272.8, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:GND.1", "lcd1:GND", "black", [ "v-28.8", "h77.1", "v0", "h9.6" ] ],
+    [ "lcd1:VCC", "uno:3.3V", "red", [ "v24.83", "h124.8", "v268.8", "h-144" ] ],
+    [ "joystick1:VCC", "uno:5V", "red", [ "v364.8", "h-288" ] ],
+    [ "joystick1:GND", "uno:GND.2", "black", [ "v345.6", "h-316.8" ] ],
+    [ "joystick1:HORZ", "uno:A1", "cyan", [ "v307.2", "h-249.6", "v-9.6" ] ],
+    [ "joystick1:VERT", "uno:A0", "yellow", [ "v288", "h-259.2", "v9.6" ] ],
+    [ "joystick1:SEL", "uno:0", "green", [ "v124.8" ] ],
+    [ "lcd1:CLK", "uno:1", "purple", [ "v0" ] ],
+    [ "lcd1:DIN", "uno:2", "magenta", [ "v0" ] ],
+    [ "uno:3", "lcd1:DC", "limegreen", [ "v0" ] ],
+    [ "lcd1:CE", "uno:4", "yellow", [ "v0" ] ],
+    [ "lcd1:RST", "uno:5", "cyan", [ "v0" ] ],
+    [ "uno:6", "keypad1:C4", "white", [ "v-67.2", "h-245.9", "v9.6" ] ],
+    [ "uno:7", "keypad1:C3", "gray", [ "v-57.6", "h-246", "v-9.6" ] ],
+    [ "uno:8", "keypad1:C2", "violet", [ "v-48", "h0.4" ] ],
+    [ "uno:9", "keypad1:C1", "blue", [ "v-38.4", "h-239.2" ] ],
+    [ "uno:10", "keypad1:R4", "green", [ "v-28.8", "h-229.7" ] ],
+    [ "uno:11", "keypad1:R3", "gold", [ "v-19.2", "h-239.4" ] ],
+    [ "uno:13", "keypad1:R1", "#8f4814", [ "v-76.8", "h-268.4" ] ],
+    [ "uno:12", "keypad1:R2", "orange", [ "v-105.6", "h-239.5", "v19.2" ] ]
+  ],
+  "dependencies": {}
+}
